@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      .main-div {
+        width: 450px;
+        height: 500px;
+        border: solid;
+        border-radius: 5px;
+        border-color: rgb(187, 183, 183);
+        border-width: 1px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 15px;
+        padding-right: 15px;
+        margin-top: 20px;
+        margin-left: 20px;
+      }
+      .image {
+        width: 50px;
+        height: 50px;
+        border-radius: 25px;
+        object-fit: cover;
+      }
+      .header {
+        display: flex;
+        flex-direction: row;
+      }
+      .first-text {
+        font-family: arial;
+        font-weight: bold;
+        margin-bottom: 5px;
+      }
+      .info {
+        margin-left: 8px;
+      }
+      .second-text {
+        font-family: arial;
+        margin-bottom: 20px;
+      }
+      .bottom-div {
+        margin-left: 50px;
+        border: solid;
+        border-radius: 15px;
+        border-color: rgb(200, 200, 200);
+        border-width: 1px;
+        width: 340px;
+        border-style: solid;
+        height: 100px;
+        border-radius: 20px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        overflow: hidden;
+      }
+      .bottom-div-data {
+        margin-top: 15px;
+        margin-left: 10px;
+      }
+      .bottom-div-color {
+        background-color: rgb(220, 220, 220);
+        width: 100px;
+        height: 100px;
+        margin-right: 10px;
+      }
+      .youtube {
+        margin-bottom: 5px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="main-div">
+      <div class="header">
+        <div>
+          <img
+            class="image"
+            src="./thumbnails/bg,f8f8f8-flat,750x,075,f-pad,750x1000,f8f8f8.jpg"
+          />
+        </div>
+        <div class="info">
+          <div class="first-text">supersimple.dev</div>
+          <div class="second-text">
+            What is backend web developmet? A complete overview. New video is
+            up!
+          </div>
+        </div>
+      </div>
+      <div class="bottom-div">
+        <div class="bottom-div-color"></div>
+        <div class="bottom-div-data">
+          <div class="youtube">youtube.com</div>
+          <div>Backend web development - a complete overview (2021)</div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
