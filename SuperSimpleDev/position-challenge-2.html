@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      .body {
+        height: 3000px;
+      }
+      /* .bottom-right {
+        right: 20px;
+        position: fixed;
+        bottom: 20px;
+        background-color: black;
+        color: white;
+      } */
+      .sidebar {
+        color: white;
+        background-color: green;
+        width: 100px;
+        right: 0;
+        bottom: 0;
+        position: fixed;
+        top: 0;
+      }
+      .overlay {
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        background-color: rgba(0, 0, 0, 0.8);
+        position: fixed;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        /* flex-direction: column; */
+      }
+      .overlay-div {
+        width: 500px;
+        background-color: white;
+        height: 200px;
+        border-radius: 5px;
+        align-items: center;
+      }
+      .title {
+        padding-left: 20px;
+        padding-top: 20px;
+        padding-bottom: 15px;
+        font-size: 30px;
+        font-family: arial;
+        font-weight: bold;
+      }
+      .text {
+        padding-left: 20px;
+        padding-bottom: 20px;
+        font-size: 20px;
+        font-family: arial;
+      }
+      .button {
+        padding-left: 20px;
+      }
+    </style>
+  </head>
+  <body class="body">
+    <div class="bottom-right">bottom-right</div>
+    <div class="sidebar">Right sidebar</div>
+    <div class="overlay">
+      <div class="overlay-div">
+        <div class="title">Modal Title</div>
+        <div class="text">This is modal</div>
+        <div class="button"><button>Close</button></div>
+      </div>
+    </div>
+  </body>
+</html>
